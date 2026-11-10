@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class Enemy : MonoBehaviour
 {
     public int vidaEnemigo = 100;
+    public int enemigoMuerto = 0;
     public int daño;
+
 
     public Slider BarraEnemiga;
 

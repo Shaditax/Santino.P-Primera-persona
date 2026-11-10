@@ -15,10 +15,12 @@ public class Bala : MonoBehaviour
             if (enemy.vidaEnemigo >= 1)
             {
                 enemy.restarVida();
+               
             }
             else if (enemy.vidaEnemigo < 1)
             {
                 enemy.Die();
+                enemy.enemigoMuerto++;
             }
         }
         Destroy(gameObject);
