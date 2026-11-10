@@ -20,7 +20,7 @@ public class Bala : MonoBehaviour
             else if (enemy.vidaEnemigo < 1)
             {
                 enemy.Die();
-                enemy.enemigoMuerto++;
+                PlayerShooting.enemigoMuerto++;
             }
         }
         Destroy(gameObject);

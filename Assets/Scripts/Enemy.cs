@@ -1,12 +1,12 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;   
 
 public class Enemy : MonoBehaviour
 {
     public int vidaEnemigo = 100;
-    public int enemigoMuerto = 0;
     public int daño;
 
 
